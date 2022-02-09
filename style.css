@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    background-color: #f5f3f3;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.left {
+    display: flex;
+    background: #7F7FD5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: auto;
+    height: 704px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.right {
+    background-color: #ffffff;
+    width: 25%;
+    height: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+}
+
+.input {
+    width: 80%;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-family: cursive;
+}
+
+.lables {
+    font-family: cursive;
+    margin-right: 13.5rem;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.button {
+    width: 82%;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    background-color: #2980B9;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.paragraph {
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.log {
+    font-size: xx-large;
+    color: #2980B9;
+    font-weight: bold;
+}
+
+.des {
+    color: #7f7b7b;
+}
+
+.input:focus {
+    border-right: 10px solid #2980B9;
+}
